@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/daily-act-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/fav_icon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Daily Act
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="./assets/fonts/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/daily-act-kit.css" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="./assets/demo/demo.css" rel="stylesheet" />
+  <link href="./assets/slick/slick.css" rel="stylesheet" />
+  <link href="./assets/slick/slick-theme.css" rel="stylesheet" />
+</head>
+
+<body class="index-page sidebar-collapse">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="index.html">
+          Daily Act
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToIndex()">
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToProduct()">
+              <p>About</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToContact()">
+              <p>Contact</p>
+            </a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" onclick="scrollToCareer()">
+                    <p>Career</p>
+                </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="#" target="_blank">
+              <i class="fab fa-twitter"></i>
+              <p class="d-lg-none d-xl-none">Twitter</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="#" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              <p class="d-lg-none d-xl-none">Facebook</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="#" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <p class="d-lg-none d-xl-none">Instagram</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="page-header clear-filter" filter-color="orange">
+      <div class="page-header-image" data-parallax="true">
+      </div>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="./assets/img/logo_da_001_white.png" alt="">
+          <h1 class="h1-seo">Daily Act.</h1>
+          <h3 class="h-25">A simple lorem ipsum tag here.</h3>
+            <p><strong>DOWNLOAD OUR APPS FROM</strong></p>
+            <div class="d-sm-none d-xs-none d-md-block d-lg-block d-xl-block">
+                <a href="#" target="_blank">
+                    <div class="btn btn-neutral btn-simple btn-lg" rel="tooltip" title="Play Store" data-placement="bottom">
+                        <h1 class="m-0"><i class="fab fa-google-play"></i></h1>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <div class="btn btn-neutral btn-simple btn-lg" rel="tooltip" title="App Store" data-placement="bottom">
+                        <h1 class="m-0"><i class="fab fa-apple"></i></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="d-lg-none d-xl-none">
+                <a href="#" target="_blank">
+                    <div class="btn btn-neutral btn-simple">
+                        <i class="fab fa-google-play"></i> Play Store
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <div class="btn btn-neutral btn-simple">
+                        <i class="fab fa-apple"></i> App Store
+                    </div>
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+        <div class="section-product" id="the-product">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <small class="text-muted">ABOUT THE PRODUCT</small>
+                        <h4 class="mt-0">THE AMAZING DAILY ACT</h4>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                        <button class="btn btn-primary" type="button">READ MORE</button>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1">
+                        <div class="product-display">
+                            <div>
+                                <img src="assets/img/app_screen_2.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_1.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_3.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_4.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_5.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_6.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_7.png">
+                            </div>
+                            <div>
+                                <img src="assets/img/app_screen_8.png">
+                            </div>
+                        </div>
+                        <div style="display: none">
+                            <div id="sliderRegular" class="slider"></div>
+                            <div id="sliderDouble" class="slider slider-primary"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-moment" id="the-moment">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h4 class="mt-0">SHARE YOUR BEST MOMENTS</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="scrolling-wrapper">
+                <div class="item">
+                    <img src="assets/img/bg1.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg3.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg4.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg5.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg6.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg7.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg8.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+                <div class="item">
+                    <img src="assets/img/bg11.jpg" data-original-title="MORNING SUN" data-toggle="popover" data-placement="bottom" data-content="Beautiful morning sun light from the forrest.">
+                </div>
+            </div>
+            <div class="bg-light shadow-lg">
+                <div class="container pb-4 pt-4">
+                    <div class="row">
+                        <div class="col-md-12 text-center mb-2">
+                            <small class="text-muted">COOL FEATURE</small>
+                            <h4 class="mt-0">EXPLORE THE DAILY ACT COOL FEATURE</h4>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <h2 class="mb-0">
+                                <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            </h2>
+                            <h5>FEATURE 1</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <h2 class="mb-0">
+                                <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            </h2>
+                            <h5>FEATURE 2</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <h2 class="mb-0">
+                                <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            </h2>
+                            <h5>FEATURE 3</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <h2 class="mb-0">
+                                <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            </h2>
+                            <h5>FEATURE 4</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button class="btn btn-primary" type="button">EXPLORE MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-contact" id="the-contact">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <small class="text-muted">CONTACT</small>
+                        <h4 class="mt-0">STAY IN TOUCH WITH US</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+                        <table class="mb-5">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <i class="now-ui-icons tech_mobile pr-4"></i>
+                                </td>
+                                <td>+62 2187784224</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="now-ui-icons ui-1_email-85"></i>
+                                </td>
+                                <td>somename@email.com</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="now-ui-icons location_map-big"></i>
+                                </td>
+                                <td>Jl. Raya No. 77, Tangerang Selatan, Tangerang, Banten 15331</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="button">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section-career mt-5" id="the-career" style="background-image: url('assets/img/office-background.jpg'); background-size: cover; background-position: top center; min-height: 300px;filter: grayscale(56%);">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-12 text-center text-white">
+                        <small>CAREER</small>
+                        <h4 class="mt-0">JOIN OUR AMAZING TEAM</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.</p>
+
+                        <a href="#" target="_blank">
+                            <button class="btn btn-simple btn-round btn-white btn-lg" type="button">SEE AVAILABLE POSITION</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+      <div class="section section-download" id="#download-section" data-background-color="black">
+        <div class="container">
+          <div class="row text-center mt-5">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h2>DAILY ACT</h2>
+              <h6 class="description">DOWNLOAD APPS HERE</h6>
+            </div>
+            <div class="col-md-12">
+                <a href="#" class="btn btn-neutral btn-sm">
+                    <img src="assets/img/playstore_btn.png">
+                </a>
+                <a href="#" class="btn btn-neutral btn-sm">
+                    <img src="assets/img/appstore_btn.png">
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer" data-background-color="black">
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+                Follow us on
+            </li>
+            <li>
+              <a href="#" rel="tooltip" title="Twitter" data-placement="top" href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" rel="tooltip" title="Facebook" data-placement="top" href="#" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" rel="tooltip" title="Instagram" data-placement="top" href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+          &copy;
+          <script>
+            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+          </script>, Daily Act. PT.
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!--  Plugin for Switches -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Plugin for the DatePicker -->
+  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+  <!-- Control Center -->
+  <script src="./assets/js/daily-act.js" type="text/javascript"></script>
+  <script src="./assets/slick/slick.min.js" type="text/javascript"></script>
+  <script src="./assets/js/custom.js" type="text/javascript"></script>
+</body>
+
+</html>
